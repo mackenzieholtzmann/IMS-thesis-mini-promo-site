@@ -1,0 +1,604 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+@font-face {
+    font-family: 'quicksanddash';
+    src: url('../fonts/qquicksand_dash-webfont.woff2') format('woff2'),
+         url('../fonts/qquicksand_dash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/qquicksand-bold-webfont.woff2') format('woff2'),
+         url('../fonts/qquicksand-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold_italic';
+    src: url('../fonts/qquicksand-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/qquicksand-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url('../fonts/qquicksand-italic-webfont.woff2') format('woff2'),
+         url('../fonts/qquicksand-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight_italic';
+    src: url('../fonts/qquicksand-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/qquicksand-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/**********************************************************************************************************************/
+
+
+#mainNav {
+	display: block;
+}
+
+#mainNav ul  {
+	display: none;
+
+}
+
+#mainNav ul.slideToggle{
+	display: block;
+	margin-top: 67px;
+}
+
+#mainNav #navButton {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	overflow: hidden;
+	background: url(../images/burger.png) center no-repeat;
+	border: none;
+	width: 40px;
+	height: 40px;	
+}
+
+#mainNav ul li {
+	
+	background-color: rgba(63, 133, 125, 0.9);
+}
+
+#mainNav ul li a {
+
+    font-family: 'quicksandregular';
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-transition: all .4s ease-in-out 0s;
+	-o-transition: all .4s ease-in-out 0s;
+	transition: all .4s ease-in-out 0s;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	}
+
+#mainNav ul li a:hover, #mainNav ul li a.selected {
+	background-color: rgba(255,255,255, 0.4);
+	text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.1);
+	color: #000;
+}
+
+#header {
+	background-image: url(../images/header2.jpg);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	position: relative;
+}
+
+#navBar {
+	background-color: rgba(63, 133, 125, 0.95);
+	height: 48px;
+		padding-top: 10px;
+		position: fixed;
+		padding-bottom: 20px;
+}
+
+
+#barLogo {
+	float: left;
+	display: block;
+	text-align: center;
+
+}
+#barLogo img{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 15px;
+
+}
+
+
+#logo img {
+	display: none;
+}
+
+h1 {
+	text-align: center;
+font-family: 'quicksandregular', arial, sans-serif;
+	 margin: 0;
+	 padding-top: 50px;
+	 letter-spacing: 5px;
+}
+
+h2 {
+	text-align: center;
+font-family: 'quicksandregular', arial, sans-serif;
+	 margin: 0;
+	 padding-top: 50px;
+	 letter-spacing: 5px;
+}
+
+h3 {
+	display: none;
+}
+
+h4 {
+	margin: 0;
+	font-family: 'quicksandregular', arial, sans-serif;
+	text-align: center;
+	letter-spacing: 4px;
+	padding-top: 40px;
+
+}
+
+p {
+	font-family: 'quicksandregular', arial, sans-serif;
+	line-height: 38px;
+	font-size: 18px;
+	margin: 0;
+	padding-top: 30px;
+		padding-bottom: 40px;
+			text-align: center;
+
+}
+
+.content {
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+#about {
+	background-color: #DBF0E7;
+}
+
+#about p {
+	line-height: 43px;
+	padding-bottom: 50px;
+}
+
+.phonePhoto img {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+#featuresHead {
+	background-color: #BDD2C9;
+
+}
+
+#featuresHead p, #featuresVisuals p {
+	padding-top: 10px;
+
+}
+
+
+
+#featuresVisuals {
+	background-color: #ABBFB6;
+}
+
+
+
+#featuresMore {
+	background-color: #9FB4AB;
+
+}
+
+
+
+#tech {
+	background-color: #487F77;
+
+	color: #fff;
+}
+
+#developer {
+	background-color: #0A3432;
+	color: #fff;
+
+}
+
+#programs {
+	background-color: #DBF0E7;
+	padding-bottom: 20px;
+}
+
+#footer {
+		background-color: #ABBFB6;
+		text-align: center;
+		font-family: 'quicksandregular', arial, sans-serif;
+}
+
+#footer p {
+			font-size: 10px;
+		line-height: 22px;
+}
+
+#angular, #express {
+	width: 45%;
+}
+
+#angular {
+	padding-right: 5%;
+	padding-top: 20px;
+}
+
+#ionic {
+	width: 45%;
+	padding-right: 5%;
+	padding-left: 3%;
+}
+
+#html {
+	width: 20%;
+	padding-right: 6%;
+	padding-left: 13%;
+}
+
+#node {
+	width: 35%;
+	padding-right: 5%;
+}
+
+#js {
+	width: 17%;
+	
+}
+
+#css {
+	width: 14%;
+	padding-right: 6%;
+}
+
+#developer img {
+	display: none;
+}
+
+#email {
+	width: 50%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 7px;
+}
+
+/**********************************************************************************************************************/
+/****************************************************IPAD**********************************************************/
+
+@media screen and (min-width: 48em){
+
+#header {
+	height: 1000px;
+}
+
+#barLogo {
+	float: left;
+	display: block;
+	width: 70%;
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+#mainNav #navButton {
+	width: 50px;
+	height: 50px;
+	}
+
+#mainNav ul li a {
+	font-size: 20px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+
+}
+
+#logo img {
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	position: absolute;
+	margin-top: 29%;
+	display: block;
+}
+
+h3 {
+	display: block;
+	margin: 0;
+	    font-family: 'quicksandlight', arial, sans-serif;
+		text-align: center;
+			 letter-spacing: 6.5px;
+			 padding-top: 40%;
+			 color: #fff;
+			 	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 22px;
+}
+
+p {
+	line-height: 46px;
+}
+
+#about p {
+	line-height: 54px;
+}
+
+h4 {
+	font-size: 18px;
+	width: 51%;
+	padding-top: 100px;
+	margin-right: 0px 0px 0px 0px;
+	float: left;
+}
+
+#featuresHead p, #featuresVisuals p {
+	width: 51%;
+	float: left;
+	padding-top: 80px;
+}
+
+#featuresMore p {
+	width: 51%;
+	float: left;
+	padding-top: 20px;
+}
+
+#featuresMore img {
+	padding-top: 20px;
+}
+
+.phonePhoto {
+	width: 47%;
+	float: right;
+	padding-top: 35px;
+	margin: 0;
+}
+
+.phonePhoto img {
+	display: block;
+}
+
+#featuresHead, #featuresVisuals, #featuresMore, #tech, #developer, #footer {
+	overflow: hidden;
+	float: left;
+}
+
+#footer {
+	width: 100%;
+}
+
+#developer p {
+	float: left;
+}
+
+#footer p {
+	font-size: 18px;
+	line-height: 35px;
+}
+
+#email {
+	width: 37%;
+
+}
+
+/**********************************************************************************************************************/
+/******************************************************DESKTOP***********************************************/
+
+@media screen and (min-width: 75em) {
+
+#mainNav {
+	display: block;
+	float: right;
+}
+
+#mainNav button {
+	display: none;
+}
+
+#mainNav ul {
+	display: block;
+	float: right;
+}
+
+
+#mainNav ul li {
+	display: block;
+	text-align: center;
+	float: left;
+	list-style: none;
+	margin-right: 15px;
+	background: none;
+}
+
+
+#mainNav ul li a{
+	margin-top: 10px;
+	font-size: 14px;
+		padding-left: 8px;
+	padding-right: 8px;
+	}
+
+#mainNav #navButton {
+
+	display: none;
+}
+
+
+
+#barLogo {
+	float: left;
+	display: block;
+	width: 30%;
+
+}
+
+#logo img{
+margin-top: 24%;
+width: 46%;
+margin-left: 27%;
+margin-right: 27%;
+}
+
+h3 {
+	padding-top: 32%;
+}
+
+.content {
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+
+#navBar {
+	background-color: rgba(63, 133, 125, 0.8);
+
+}
+
+#featuresHead p {
+	padding-top: 200px;
+}
+
+#featuresVisuals p {
+	width: 40%;
+	padding-top: 200px;
+}
+
+#featuresMore p {
+	width: 40%;
+	padding-top: 150px;
+}
+
+#tech p {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#angular, #express {
+	width: 18%;
+	padding-bottom: 20px;
+}
+
+#express {
+	padding-right: 20px;
+}
+
+#ionic {
+	width: 20%;
+	padding-right: 5%;
+}
+
+#html, #node {
+	width: 10%;
+}
+
+#html {
+	padding-left: 25%;
+}
+
+#css {
+	width: 7%;
+}
+
+#js {
+	width: 8%;
+	padding-bottom: 0;
+}
+
+#programs {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#developer img {
+	display: block;
+	width: 28%;
+	padding-top: 60px;
+}
+
+#developer p {
+	width: 68%;
+	padding-right: 4%;
+	font-size: 15px;
+}
+
+#footer p {
+	font-size: 14px;
+}
+
+#email {
+	width: 22%;
+	padding-top: 40px;
+
+}
+}
+
